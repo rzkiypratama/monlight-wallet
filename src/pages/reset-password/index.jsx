@@ -29,7 +29,8 @@ export default function Forgot() {
 
   const clickHandler = (e) => {
     e.preventDefault();
-    const baseUrll = `${process.env.NEXT_PUBLIC_URL_PAGE}/reset-password`;
+    // const baseUrll = `${process.env.NEXT_PUBLIC_URL_PAGE}/reset-password`;
+    const baseUrll = "http://localhost:3000/reset-password/";
     const bodys = {
       email: body.email,
       linkDirect: baseUrll,

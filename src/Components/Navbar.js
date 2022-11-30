@@ -77,7 +77,7 @@ function Navbar({ children, showModals }) {
                   className={css["navbar-name"]}
                 >{`${users.profile.firstName} ${users.profile.lastName}`}</p>
               )}
-              {/* <p className={css["navbar-phone"]}>+62 8139 3877 7946</p> */}
+              <p className={css["navbar-phone"]}> {numberPhone(users.profile.noTelp)}</p>
             </div>
           </div>
           <div className={css["pc"]} style={{ minWidth: "11rem" }}>

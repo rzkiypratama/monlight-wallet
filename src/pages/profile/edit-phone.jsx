@@ -15,7 +15,7 @@ function EditPhone({ data }) {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [isLoading, setLoading] = useState(false);
   const [isError, setisError] = useState();
-
+  const dispatch = useDispatch()
   const auth = useSelector((state) => state.auth);
   const users = useSelector((state) => state.user);
   const router = useRouter();
@@ -75,9 +75,9 @@ function EditPhone({ data }) {
         <main className={css["container"]}>
           <div className="container">
             <div className={`row ${css["main-content"]}`}>
-              <div className="col-lg-3 col-md-4">
-                <Sidebar />
-              </div>
+            <div className={`col-lg-3 col-md-4 ${css["only-mobile"]}`}>
+            <Sidebar />
+          </div>
               {isLoading && (
                 <div style={{ position: "fixed", top: "50%", left: "50%" }}>
                   <Loader />

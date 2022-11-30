@@ -43,7 +43,7 @@
     border-bottom: .2rem solid #DADADA;
     padding-bottom: .5rem;
     gap: .5rem;
-    width: 431px;
+    width: 100%;
 }
 
 .edit-content form .input p {
@@ -80,7 +80,7 @@
     font-size: 1rem;
     font-weight: 700;
     padding: 1rem 3.5rem;
-    width: 431px;
+    width: 100%px;
     cursor: default;
 }
 
@@ -109,6 +109,11 @@
 }
 
 @media screen and (max-width: 576px) {
+
+    .only-mobile {
+        display: none;
+    }
+
     .container .main-content {
         padding: 2rem 0;
     }

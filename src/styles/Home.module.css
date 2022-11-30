@@ -401,6 +401,7 @@
     align-items: center;
     flex-direction: column !important;
     width: 100%;
+    margin: auto;
   }
 
   .card {
@@ -438,10 +439,11 @@
     flex-direction: row;
     gap: 0.5rem;
     margin: 1rem 0;
+    /* width: 95%; */
   }
 
   .btn {
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
     gap: 1rem !important;
     width: 12rem !important;
@@ -471,12 +473,14 @@
 
   .side {
     display: flex;
-    width: 100% !important;
+    width: 95% !important;
     flex-direction: column;
+    margin: auto;
   }
 
   .side-top {
     width: 100%;
+    margin: auto;
   }
 
   .onMobile {

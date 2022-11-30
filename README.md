@@ -40,14 +40,14 @@
 
 ## Screenshots
 <div align="center">
-    <img width="250" src="/home/pratama/monlight-wallet/assets/1.jpeg">   
-    <img width="250" src="/home/pratama/monlight-wallet/assets/2.jpeg"> 
-    <img width="250" src="/home/pratama/monlight-wallet/assets/3.jpeg"> 
-    <img width="250" src="/home/pratama/monlight-wallet/assets/4.jpeg"> 
-    <img width="250" src="/home/pratama/monlight-wallet/assets/5.jpeg"> 
-    <img width="250" src="/home/pratama/monlight-wallet/assets/6.jpeg"> 
-    <img width="250" src="/home/pratama/monlight-wallet/assets/7.jpeg"> 
-    <img width="250" src="/home/pratama/monlight-wallet/assets/8.jpeg"> 
+    <img width="250" src="/home/pratama/monlight-wallet/src/assets/1.jpeg">   
+    <img width="250" src="/home/pratama/monlight-wallet/src/assets/2.jpeg"> 
+    <img width="250" src="/home/pratama/monlight-wallet/src/assets/3.jpeg"> 
+    <img width="250" src="/home/pratama/monlight-wallet/src/assets/4.jpeg"> 
+    <img width="250" src="/home/pratama/monlight-wallet/src/assets/5.jpeg"> 
+    <img width="250" src="/home/pratama/monlight-wallet/src/assets/6.jpeg"> 
+    <img width="250" src="/home/pratama/monlight-wallet/src/assets/7.jpeg"> 
+    <img width="250" src="/home/pratama/monlight-wallet/src/assets/8.jpeg"> 
 </div>
 
 
