@@ -20,7 +20,7 @@
 
 ## Introduction
 <b>FazzPay</b> Digital Wallet for Future.
-<tr>You can test the web online here: https://b-pay-beige.vercel.app/</tr>
+<tr>You can test the web online here: https://monlight-wallet.vercel.app/</tr>
 
 ## Features
 * Auth
@@ -34,7 +34,7 @@
 
 ## Usage for development
 1. Open your terminal or command prompt
-2. Type `git clone https://github.com/rzkiyprtm/b-pay.git`
+2. Type `git clone https://github.com/rzkiyprtm/monlight-wallet.git`
 3. Open with your text editor
 4. Start to edit and develop
 
