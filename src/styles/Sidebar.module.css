@@ -290,7 +290,11 @@
 }
 
 .btnred {
-  background-color: #3A3D42 !important;
+  background-color: #8d2a2a !important;
+}
+
+.btngrey {
+  background-color: #bababa !important;
 }
 
 @media screen and (max-width: 576px) {
