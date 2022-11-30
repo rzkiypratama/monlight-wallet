@@ -48,7 +48,7 @@ function Navbar({ children, showModals }) {
           <div className={css["on-mobile"]} onClick={sidebarHandler}>
             <Sidebar showModals={showModals} />
           </div>
-          <p className={css.title}>FazzPay</p>
+          <p className={css.title}>bhimzpay</p>
         </div>
         <div className={css["navbar-right"]}>
           <div className={css["mobile"]} style={{ minWidth: "11rem" }}>
