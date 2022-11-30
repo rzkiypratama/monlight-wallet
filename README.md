@@ -57,7 +57,7 @@
     <tr>
       <td align="center">
         <a href="https://github.com/rzkiyprtm">
-          <img width="100" ; src="/home/pratama/monlight-wallet/assets/putra.jpg" alt=""><br/>
+          <img width="100" ; src="/home/pratama/monlight-wallet/src/assets/gue.jpg" alt=""><br/>
           <sub><b>Rizky Putra Pratama</b></sub>
         </a>
         </td>
