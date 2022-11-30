@@ -104,8 +104,8 @@
 }
 
 .ask {
-  font-family: "Lilita One" !important;
-  font-weight: 400;
+  /* font-family: "Lilita One" !important; */
+  font-weight: 700;
   font-size: 40px;
   /* color: var(--primary); */
   width: 70%;
@@ -289,11 +289,38 @@
   justify-content: space-between;
 }
 
+.btnred {
+  background-color: #3A3D42 !important;
+}
+
 @media screen and (max-width: 576px) {
   .modal-container {
     width: 93%;
     top: 18%;
     left: 4%;
+  }
+
+  .btnred {
+    background-color: #8d2a2a !important;
+  }
+
+  .btngrey {
+    background-color: #bababa !important;
+  }
+
+  .btn {
+    cursor: pointer;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  width: 7rem;
+  border-radius: 17px;
+  padding: 1rem;
+  background-color: #6379f4;
+  -webkit-border-radius: 17px;
+  -moz-border-radius: 17px;
+  -ms-border-radius: 17px;
+  -o-border-radius: 17px;
   }
 
   .container-btn {

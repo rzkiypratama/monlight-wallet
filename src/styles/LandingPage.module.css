@@ -306,7 +306,11 @@
   gap: 40px;
 }
 
-@media (min-width: 425px) {
+@media (max-width: 425px) {
+
+  .navbar {
+    gap: 10px;
+  }
 
   .section-1,
   .section-3,
@@ -335,13 +339,16 @@
   .display-1,
   .display-4,
   .display-8 {
-    margin-top: 50px;
+    margin-top: 30px;
     line-height: 70px;
+    padding-bottom: 40px;
     text-align: center;
+    font-size: 2.5em;
   }
 
   .section-2 {
-    display: none;
+    /* display: none; */
+    overflow: hidden;
   }
 
   .wrapper-card {

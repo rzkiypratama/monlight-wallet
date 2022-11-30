@@ -326,12 +326,12 @@ function Sidebar({ showModals, logoutModal }) {
                 <div
                   className={`${Styles.btn} ${
                     isLoading ? Styles.loading : undefined
-                  }`}
+                  } ${Styles.btnred}`}
                   onClick={logoutHandler}
                 >
                   <p>YES</p>
                 </div>
-                <div className={Styles.btn} onClick={NoHandler}>
+                <div className={`${Styles.btn} ${Styles.btngrey}`} onClick={NoHandler}>
                   <p>NO</p>
                 </div>
               </div>
