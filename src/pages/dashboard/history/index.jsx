@@ -34,7 +34,7 @@ function Home() {
   useEffect(() => {
     dispatch(
       transactionAction.HistoryLimitThunk(
-        `page=${query.page}&limit=${query.limit}&filter=${query.filter}`,
+        `page=${query.page}&limit=6&filter=${query.filter}`,
         // `page=1&limit=10&filter=${router.query.filter}`,
         auth.userData.token
       )
