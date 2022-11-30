@@ -80,7 +80,7 @@ const loginThunk = (body, cb) => {
       console.log(result);
       setCookie("token", result.data.data.token);
       setCookie("id", result.data.data.id);
-      if (typeof cb === "function") cb();
+      if (typeof cb === "function") cb(result.data.data.pin);
     } catch (error) {
       console.log(error);
       dispatch(loginRejected(error));

@@ -29,8 +29,7 @@ export default function Forgot() {
 
   const clickHandler = (e) => {
     e.preventDefault();
-    // const baseUrll = `${process.env.NEXT_PUBLIC_URL_PAGE}/reset-password`;
-    const baseUrll = "https://monlight-wallet.vercel.app/reset-password";
+   const baseUrll = "https://monlight-wallet.vercel.app/reset-password";
     const bodys = {
       email: body.email,
       linkDirect: baseUrll,

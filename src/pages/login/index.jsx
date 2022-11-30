@@ -36,12 +36,14 @@ export default function Login({ data }) {
     dispatch(authAction.loginThunk(body, goRoute));
   };
 
-  const goRoute = () => {
+  const goRoute = (pin) => {
     // setCookie("token", auth.userData.token);
     // setCookie("id", auth.userData.id);
-    const token = getCookie("token");
-    if (!auth.userData.pin) router.push("/createpin");
-    if (token) router.push("/dashboard");
+    // const token = getCookie("token");
+    if (!pin) return router.push("/createpin")
+    // if (!auth.userData.pin) return router.push("/createpin");
+    // if (token) 
+    router.push("/dashboard");
   };
 
   if (data === "ISLOGIN") router.push("/dashboard");
