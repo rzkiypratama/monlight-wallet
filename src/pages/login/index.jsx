@@ -20,8 +20,6 @@ export default function Login({ data }) {
   const [body, setBody] = useState({});
   const auth = useSelector((state) => state.auth);
 
-  if (data === "ISLOGIN") router.push("/dashboard");
-
   const checkEmptyForm = (body) => {
     if (!body.email || !body.password) return setEmptyForm(true);
     body.email && body.password && setEmptyForm(false);
@@ -45,6 +43,8 @@ export default function Login({ data }) {
     if (!auth.userData.pin) router.push("/createpin");
     if (token) router.push("/dashboard");
   };
+
+  if (data === "ISLOGIN") router.push("/dashboard");
 
   useEffect(() => {
     checkEmptyForm(body);
@@ -125,23 +125,3 @@ export default function Login({ data }) {
     </>
   );
 }
-
-export const getServerSideProps = async ({ req, res }) => {
-  const token = getCookie("token", { req, res });
-  const id = getCookie("id", { req, res });
-  try {
-    if (token) throw "ISLOGIN";
-    const data = null;
-    return {
-      props: {
-        data,
-      },
-    };
-  } catch (err) {
-    return {
-      props: {
-        data: err,
-      },
-    };
-  }
-};
