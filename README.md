@@ -40,7 +40,7 @@
 
 ## Screenshots
 <div align="center">
-    <img width="250" src="/home/pratama/monlight-wallet/src/assets/1.jpeg">   
+    <img width="250" src="/src/assets/1.jpeg">   
     <img width="250" src="/home/pratama/monlight-wallet/src/assets/2.jpeg"> 
     <img width="250" src="/home/pratama/monlight-wallet/src/assets/3.jpeg"> 
     <img width="250" src="/home/pratama/monlight-wallet/src/assets/4.jpeg"> 
