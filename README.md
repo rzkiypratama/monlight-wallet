@@ -52,7 +52,7 @@
 </div>
 
 ## Related Project
-[`Tickitz Movie Website`](https://github.com/rzkiyprtm/lepisa-fe-monlight)
+* [`Tickitz Movie Website`](https://github.com/rzkiyprtm/lepisa-fe-monlight)
 
 
 ## Contributors
