@@ -16,6 +16,7 @@
 - [Requirements](#requirements)
 - [Usage](#usage-for-development)
 - [Screenshots](#screenshots)
+- [Related Project](#relatedproject)
 - [Contributors](#contributors)
 
 ## Introduction
@@ -41,14 +42,17 @@
 ## Screenshots
 <div align="center">
     <img width="250" src="/src/assets/1.jpeg">   
-    <img width="250" src="/home/pratama/monlight-wallet/src/assets/2.jpeg"> 
-    <img width="250" src="/home/pratama/monlight-wallet/src/assets/3.jpeg"> 
-    <img width="250" src="/home/pratama/monlight-wallet/src/assets/4.jpeg"> 
-    <img width="250" src="/home/pratama/monlight-wallet/src/assets/5.jpeg"> 
-    <img width="250" src="/home/pratama/monlight-wallet/src/assets/6.jpeg"> 
-    <img width="250" src="/home/pratama/monlight-wallet/src/assets/7.jpeg"> 
-    <img width="250" src="/home/pratama/monlight-wallet/src/assets/8.jpeg"> 
+    <img width="250" src="/src/assets/2.jpeg"> 
+    <img width="250" src="/src/assets/3.jpeg"> 
+    <img width="250" src="/src/assets/4.jpeg"> 
+    <img width="250" src="/src/assets/5.jpeg"> 
+    <img width="250" src="/src/assets/6.jpeg"> 
+    <img width="250" src="/src/assets/7.jpeg"> 
+    <img width="250" src="/src/assets/8.jpeg"> 
 </div>
+
+## Related Project
+[`Tickitz Movie Website`](https://github.com/rzkiyprtm/lepisa-fe-monlight)
 
 
 ## Contributors
