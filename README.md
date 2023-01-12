@@ -51,10 +51,6 @@
     <img width="250" src="/src/assets/8.jpeg"> 
 </div>
 
-## Related Project
-* [`Tickitz Movie Website`](https://github.com/rzkiyprtm/lepisa-fe-monlight)
-
-
 ## Contributors
 <center>
   <table>
